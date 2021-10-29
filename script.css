@@ -1,0 +1,121 @@
+ 
+  body{
+    height: 100px;
+    margin: 20px;
+    background-color: white;
+      
+  }
+  
+  .logo{
+    height: 80px;
+    width: 1300px;
+    background-color: green;
+    color: white;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    
+  }
+
+  .lista {
+    height: 40px;
+    width: 1280px;
+    background-color: rgb(243, 117, 71);
+    color: white;
+    margin: 20px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin-top: 5px;	
+    background-color: #EF6C00;
+    border-bottom: 2px solid #BF360C;
+    padding: 2px;
+    padding-left: 20px;
+    color: #fff;
+  }
+  
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  
+  
+  div {
+    flex-direction: column;
+    padding: 2px;
+    width: 100%;
+    height: auto;
+    cursor:pointer;  
+    list-style-type: none;
+  }
+  
+  .produtos{
+    height: 40px;
+    width: 1300px;
+    background-color: white;
+    color: black;
+    margin: 20px;
+    font-size: 20px;
+    /*text-decoration: none;*/
+    margin: 0 10px;
+    cursor:pointer;  
+    list-style-type: none;
+  } 
+  
+  #cestaDoCliente{
+    height: 40px;
+    width: 1276px;
+    background-color: rgb(243, 117, 71);
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    bottom: 20px;
+    cursor: pointer;
+    /*position:static;*/
+    margin:20px;
+    border: 2px;
+    margin-top: 90px;
+    margin-left: 10px;
+    
+  }
+  
+  .flex-row-end > span{
+    width: 130px;
+    height: auto;
+    justify-content: flex-end;
+    font-size: 28px;
+    background-color: #558B2F ;
+    color: #fff;
+    padding: 2px;
+    font-weight: bold;
+  
+  }
+  
+  ul > li:hover {
+    background-color: #FFE0B2;
+    font-weight: bold;
+  }     
+          
+  .flex-row-end > #mostraTotalCompra {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    
+    
+  }
+
+  #content-totalCompras{
+    margin-top: 50px;
+    margin-left: 650px;
+  }
+  
+  .flex{
+    font-size: 10px;
+    
+  }
