@@ -56,41 +56,4 @@ window.onload = function(){
 
   calcular('listaProdutos', 'Somatotal')
   init('produtos')
-      
-      //( ()=>{
-      /*
-      let produtos = [
-          {descricao: 'Mamão Papaia', preco:5.00},
-          {descricao: 'Laranja', preco:2.50},
-          {descricao: 'Manga', preco:4.90},
-          {descricao: 'Melão', preco:5.90},
-          {descricao: 'Melancia', preco:1.90}
-      ]
-      
-      const listaProdutos = document.querySelector("#cestaDoCliente");
-      const Total = document.querySelector("#Somatotal");
-          let totalzinho=0;
-      
-          for( let pro of produtos ){
-              const filhoLi = document.createElement('li');
-      
-              for( let listaP in pro ){
-                
-                  if( listaP == 'preco' ){
-                      filhoLi.setAttribute('data-preco', pro[listaP] );
-                      totalzinho += pro[listaP];
-                  } else{
-                      filhoLi.textContent = `${pro[listaP]}`;
-                  }
-                   listaProdutos.appendChild(filhoLi);
-              }
-              
-          }
-          Total.value = totalzinho.toFixed(2);    
-      //} )(produtos)
-      */
-    }
-      
-
-  // trcar o . por , //
-  //n1.tofixed (2).replace('.', ',')
+}   
